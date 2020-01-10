@@ -6,5 +6,5 @@ The first applet included is the 'Play_Explorer' applet, which lets you explore 
 ## Running the Applets
 The applets are written using [Streamlit](https://www.streamlit.io/) and pull data from [NFLGame](https://github.com/derek-adair/nflgame). Most applets will rely on only those two packages, while some may require other common Pyhton packages. To run these applets either download the code and run using Streamlit in your terminal or alternatively call the Github file direcly. An example using the 'Play_Explorer' applet.
 ```python
-streamlit run https://github.com/ryscar13/NFLGame_Explorer/blob/master/Play_Explorer.py
+streamlit run https://github.com/ryscar13/NFLGame_Explorers/blob/master/Play_Explorer.py
 ```
