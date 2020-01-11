@@ -1,6 +1,6 @@
 ## Packages
 import streamlit as st
-import nflgame
+import nflgame as nflgame
 
 ##Sidebar
 st.sidebar.header('Season and Week Selection')
@@ -27,7 +27,7 @@ st.markdown('''
 
 @st.cache(allow_output_mutation=True)
 def get_games(y,w):
-    return nflgame.games(y, week=w)
+    return nflgame.games(y, week=w, kind = 'REG')
 
 games = get_games(y, w)
 
